@@ -4,6 +4,7 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "my_perror.h"
 
 int main(int argc, char *argv[])
@@ -18,12 +19,12 @@ int main(int argc, char *argv[])
 
 	if ((f = fopen(argv[1], "r")) == NULL)
 	{
-		my_perror("fopen");
+		my_perror(NULL);
 		exit(1);
 	}
 
 	printf("다음 파일을 엽니다. \"%s\". \n", argv[1]);
-	fclose(f); // 파일 닫기
+	
 
 	return 0;
 }

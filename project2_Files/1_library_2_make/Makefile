@@ -22,7 +22,10 @@ source/multiply.o : source/multiply.c
 source/devide.o : source/devide.c
 	gcc -o source/devide.o -c source/devide.c
 
+# 실행 명령
+run : 
+	programs/make_main
+	
 # 청소 명령
 clean :
-	rm -f programs/make_main $(OBJECTS)
-# lib/libstatic.a
+	rm -f programs/make_main $(OBJECTS) lib/libstatic.a
