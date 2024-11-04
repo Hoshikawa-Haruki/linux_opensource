@@ -7,5 +7,8 @@ lib/libmy_perror.a : source/my_perror.o
 source/my_perror.o : source/my_perror.c
 	gcc -o source/my_perror.o -c source/my_perror.c
 
+run : 
+	programs/main programs/testFile.txt
+
 clean :
 	rm -f programs/main lib/libmy_perror.a source/my_perror.o
