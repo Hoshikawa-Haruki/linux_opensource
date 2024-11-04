@@ -1,9 +1,9 @@
 <h1> 2024학년도 2학기 <br> 오픈소스 프로젝트 LAB2 과제 실습 </h1>
 20203105 이승환
 <h1> 파일 목록 </h1>
+
 ```
-<hello> </hello></hello>
-```
+
 ├── README.md
 └── project2_Files
     ├── 10_struct
@@ -88,4 +88,5 @@
         │   └── main
         └── source
             └── main.cpp
+
 ```
